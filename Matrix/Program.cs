@@ -18,9 +18,7 @@ namespace Matrix
                 for(int j = 0; j < width; j++)
                 {
                     matrix[i, j] = rand.Next(1,10);
-                    Console.Write(matrix[i, j]);
                 }
-                Console.WriteLine();
             }
 
             //SCHLEIFEN DOPPELT SO GROSS WIE MATRIX, unten und rechts um 1 beschnitten
